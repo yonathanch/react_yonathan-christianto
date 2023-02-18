@@ -4,6 +4,7 @@
 Internet merupakan singkatan atau kependekan  dari international network, yang didefinisikan sebagai suatu jaringan komputer yang sangat besar,dimana jaringan komputer tersebut terdiri dari beberapa jaringan-jaringan kecil yang saling terhubung satu sama lain.
 
 •	HTML,CSS dan JAVASCRIPT
+
 -HTML (Hyper Text Markup Language) adalah bahasa markup yang digunakan untuk membuat Halaman web. HTML adalah markup yang digunakan untuk mendefinisikan struktur halaman web. Hal ini seperti misalnya membuat elemen paragraf, gambar, link dan lain sebagainya. HTML tersusun atas elemen/tag HTML.
 
 -CSS (Cascading Style Sheet) adalah bahasa yang digunakan untuk mengatur tampilan (gaya) elemen-elemen HTML. Dengan CSS, kita dapat memberikan warna background, border, mengatur posisi elemen, ukuran font dan lain sebagainya.
