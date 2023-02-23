@@ -2,6 +2,7 @@
 
 PENGERTIAN HTML:
 HTML (HyperText Markup Language) adalah suatu bahasa yang menggunakan tanda-tanda tertentu (tag) untuk menyatakan kode-kode yang harus ditafsirkan oleh browser agar halaman tersebut dapat ditampilkan secara benar.Secara umum, fungsi HTML adalah untuk mengelola serangkaian data dan informasi sehingga suatu dokumen dapat diakses dan ditampilkan di Internet melalui layanan web.
+
 •	KEGUNAAN HTML:
 1.	Membuat sturktur dari halaman website.
 2.	Mengatur tampilan dan isi dari halaman web.
