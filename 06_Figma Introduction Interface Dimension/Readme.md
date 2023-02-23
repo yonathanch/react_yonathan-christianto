@@ -3,6 +3,7 @@
 •	Pengertian:
 Figma adalah salah satu tools atau aplikasi desain yang dapat digunakan pada windows dan Mac OS untuk membuat prototype aplikasi serta berbagai desain lainnya. Aplikasi ini berbasis vektor, sehingga memang sangat cocok digunakan untuk membuat user interface aplikasi atau website.
 Fungsi Figma: Wireframe aplikasi, UI aplikasi dan website, Prototype, Mockup desain,dll.
+
 •	FITUR FIGMA:
 1.	Modern pen tool : Fitur ini untuk membantu dalam menggambar ke berbagai arah dan bentuk menggunakan vector networks.
 2.	Instant arc designs : Membantu dalam membuat bentuk busur, lingkaran, dan yang lain dengan mudah tanpa perlu takut hasilnya tidak lurus.
@@ -11,6 +12,7 @@ Fungsi Figma: Wireframe aplikasi, UI aplikasi dan website, Prototype, Mockup des
 5.	Widget : Widget merupakan objek khusus yang dapat ditambahkan pengguna ke halaman editor atau FigJam.
 6.	Inspect design files : Setiap viewer dapat mengambil cuplikan kode atau script yang dihasilkan untuk CSS, iOS, dan android.
 Dan masih banyak lagi fitur figma yang bermanfaat bagi kebutuhan kita.
+
 •	KELEBIHAN Dan KEKURANGAN FIGMA:
 -Kelebihan :
 1.	Bekerja bersamaan dan berkolaborasi secara realtime
