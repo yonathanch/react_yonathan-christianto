@@ -1,4 +1,4 @@
-                                                                               FIGMA
+                                                                            06_Figma Introduction Interface Dimension
 
 •	Pengertian:
 Figma adalah salah satu tools atau aplikasi desain yang dapat digunakan pada windows dan Mac OS untuk membuat prototype aplikasi serta berbagai desain lainnya. Aplikasi ini berbasis vektor, sehingga memang sangat cocok digunakan untuk membuat user interface aplikasi atau website.
