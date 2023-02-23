@@ -18,25 +18,25 @@ HTML (HyperText Markup Language) adalah suatu bahasa yang menggunakan tanda-tand
 4.	Sublime
 
 •	Tag HTML dan Fungsinya:
-1.	DOCTYPE	:Menentukan jenis dokumen
-2.	html	:Pembuka dan penutup HTML
-3.	head	:Menentukan informasi halaman
-4.	title	:Menentukan judul halaman
-5.	body	:Tempat menampilkan konten
-6.	h1..h6	:Membuat judul teks
-7.	p		:Menentukan paragraf
-8.	hr		:Mebuat garis horizontal
-9.	!–…–	:Membuat komentar
-10.	b		:Menebalkan teks
-11.	blockquote :Menentukan kutipan dari sumber lain
-12.	code	:Menentukan kode komputer
-13.	em		:Membuat teks miring atau ditekankan
-14.	i		:Membuat teks miring
-15.	pre		:Menentukan teks diformat
-16.	q		:Menentukan kutipan pendek
-17.	s		:Mencoret teks
-18.	small	:Menentukan teks yang lebih kecil
-19.	strong	:Membuat teks tebal atau teks penting
+1.	DOCTYPE	: Menentukan jenis dokumen
+2.	html	: Pembuka dan penutup HTML
+3.	head	: Menentukan informasi halaman
+4.	title	: Menentukan judul halaman
+5.	body	: Tempat menampilkan konten
+6.	h1..h6	: Membuat judul teks
+7.	p		: Menentukan paragraf
+8.	hr		: Mebuat garis horizontal
+9.	!–…–	: Membuat komentar
+10.	b		: Menebalkan teks
+11.	blockquote : Menentukan kutipan dari sumber lain
+12.	code	: Menentukan kode komputer
+13.	em		: Membuat teks miring atau ditekankan
+14.	i		: Membuat teks miring
+15.	pre		: Menentukan teks diformat
+16.	q		: Menentukan kutipan pendek
+17.	s		: Mencoret teks
+18.	small	: Menentukan teks yang lebih kecil
+19.	strong	: Membuat teks tebal atau teks penting
 Dan masih banyak lagi fungsi html.
 
 KESIMPULAN: HTML adalah bahasa markup yang membentuk struktur halaman website agar dapat diproses dan dikenali oleh web browser. Jenis tag terbagi menjadi dua, yaitu inline tags dan block level dengan kerangka inti yang meliputi struktur elemen head, body, dan footer.Dalam penerapannya, bahasa markup ini termasuk ke dalam komponen penting penyusun sisi front-end atau klien untuk membuat halaman website semaksimal mungkin.
