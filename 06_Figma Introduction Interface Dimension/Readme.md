@@ -14,11 +14,13 @@ Fungsi Figma: Wireframe aplikasi, UI aplikasi dan website, Prototype, Mockup des
 Dan masih banyak lagi fitur figma yang bermanfaat bagi kebutuhan kita.
 
 •	KELEBIHAN Dan KEKURANGAN FIGMA:
+
 -Kelebihan :
 1.	Bekerja bersamaan dan berkolaborasi secara realtime
 2.	File sharing yang mudah dan cepat
 3.	Aplikasi desain yang lengkap dan serba bisa
 4.	Berbasis cloud tanpa perlu instalasi
+
 -Kekurangan:
 1.	Tidak bisa dijalankan tanpa koneksi internet
 2.	Membutuhkan kapasitas RAM yang lumayan dan graphic card yang mumpuni
