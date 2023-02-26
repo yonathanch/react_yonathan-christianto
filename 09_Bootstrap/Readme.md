@@ -1,5 +1,6 @@
                                                                          09_Bootstrap
 Pengertian:
+
 Bootstrap adalah sebuah framework HTML, CSS, dan JavaScript yang berfokus untuk menyederhanakan pengembangan halaman web atau website. Pada umumnya, Bootstrap digunakan untuk mengimplementasikan berbagai pilihan warna, ukuran, font, dan layout yang ada dalam framework tersebut ke dalam sebuah website.
 
 •	Kelebihan Bootstrap Framework:
@@ -21,5 +22,6 @@ Bootstrap adalah sebuah framework HTML, CSS, dan JavaScript yang berfokus untuk 
 3.	Download dengan package manager.
 
 Kesimpulan:
+
 Bootstrap adalah framework yang digunakan untuk memudahkan pekerjaan front-end web developer.Dengan framework gratis ini, web designing dan web development menggunakan CSS, HTML, atau Javascript bisa menjadi lebih mudah, cepat, dan efektif. Selain itu, Bootstrap merupakan framework yang fleksibel dan mampu membantu hampir semua proses web development front-end. Fitur terbaiknya adalah template desain yang mengoptimalkan performa halaman web di semua ukuran layar.
 
