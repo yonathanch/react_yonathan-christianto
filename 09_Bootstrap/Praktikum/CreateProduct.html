@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg shadow-sn">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"> <b>Simple header</b></a>
+<!--  -->
+<!--  -->
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-base-target="#menuNavbar" arial-controls="menuNavbar" >
+            <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse justify-content-md-end" id="menuNavbar">
+            <ul class="navbar-nav nav">
+                <li class="nav-item1">
+                    <a href="#" class="nav-link text-light" >Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-primary">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-primary">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-primary">FAQs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-primary">Aboout</a>
+                </li>    
+            </ul>
+           </div>
+        </div>
+    </nav>
+
+    <div class="container text-center">
+        <img src="assets/bootstrap-logo.svg.png" class="mx-auto mt-3 d-block img-fluid">
+        <div class="container">
+            <h3>Create Product</h3>
+            <p>Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+        </div>
+    </div>
+    <form class="row container mx-auto w-75 needs-validation" novalidate>
+        <h2>Detail Product</h2>
+        <div class="col-12 mb-3">
+            <label for="productName" class="form-label">Product Name</label>
+            <input type="text" id="productName" class="form-control" required>
+            <!-- <div class="valid-feedback">
+                Good
+            </div> -->
+            <div class="invalid-feedback">
+                Lengkapi form!
+            </div>
+        </div>
+        <div class="col-12 mb-3">
+            <label for="nationality" class="form-label">Product Category</label>
+            <select class="form-select" aria-label="nationality" required>
+                <option selected>Choose...</option>
+                <option value="lk">volvo</option>
+                <option value="wn">saab</option>
+                <option value="tg">mercedes</option>
+            </select>
+        </div>
+        <div class="col-12 mb-3 custom-file-button">
+            <label for="productImage" class="form-label">Image of Product</label>
+            <input class="form-control text-primary border-primary" type="file" id="productImage" required>
+        </div>
+        <div class="col-12 mb-3 custom-file-button">
+            <label for="productImage" class="form-label" >Product Freshnes</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                    Brand New
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                    Second Hand
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
+                <label class="form-check-label" for="exampleRadios3">
+                    Refufbished
+                </label>
+              </div>
+        </div>
+        <div class="col-12 mb-3 custom-file-button">
+            <label for="productImage" class="form-label" >Additional Description</label>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px" required></textarea>
+                <label for="floatingTextarea2"></label>
+                <div class="invalid-feedback">
+                    Lengkapi form!
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mb-3">
+                <label for="productName" class="form-label">Product Pice</label>
+                <input type="text" id="productPrice" class="form-control" placeholder="$ 100" required>
+                <div class="invalid-feedback">
+                    Lengkapi form!
+                </div>
+        </div>
+        <div class="col-12 mb-3">
+            <button type="submit" class="btn btn-primary" data-bs-target="#modalContent" style="width: 500px;">
+                Submit
+            </button>
+        </div>
+    </form>
+<br><br><br><br>
+    <!-- Carousel -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/slide3.jpg" class="d-block w-100" alt="programmer">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/slide2.jpg" class="d-block w-100" alt="programmer">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/slide1.jpg" class="d-block w-100" alt="progammer">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- modal -->
+    <div class="modal fade" id="modalContent" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-succes" id="exampleModalLabel"> Succes</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            <div class="modal-body">
+                .... 
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" >Save changes</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        (function (){
+            'use strict'
+        var forms = document.querySelectorAll('.needs-validation')
+        Array.prototype.slice.call(forms)
+        .forEach(function (form){
+            form.addEventListener('submit', function (event){
+                if (!form.checkValidity()){
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+                form.classList.add('was-validated')
+            }, false)
+        })
+        }) ()
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

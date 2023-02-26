@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Product</title>
+  </head>
+  <body>
+    <h1>Create Product</h1>
+    <h2>Detail Product</h2>
+    <form>
+      <div>
+        <label for="name">Product Name :</label>
+          <div>
+            <input type="text" name="name" id="name" required
+            minlength="6" maxlength="50">
+          </div>
+      </div>
+      <div>
+        <label for="category">Product Category :</label>
+          <div>
+            <select type="select" name="category" id="category">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+            </select>
+          </div>
+      </div>
+      <div>
+        <label for="category">Product Freshness :</label>
+          <div>
+            <input type="radio" name="brand" id="brand-new" />
+            <label for="brand">Brand New</label>
+          </div>
+          <div>
+            <input type="radio" name="brand" id="second-hank" />
+            <label for="brand">Second Hank</label>
+          </div>
+          <div>
+            <input type="radio" name="brand" id="refurbished" />
+            <label for="brand">Refurbished</label>
+          </div>
+      </div>
+      <div>
+         <label for="img-product">Image of Product</label>
+         <input type="file" name="img-product" id="img-product" accept="Image/*">
+      </div>
+      <div>
+          <label for="additional-description">Additional Description</label>
+          <div>
+              <textarea name="additional-description" id="additional-description" cols="40" rows="8"></textarea>
+          </div>    
+      </div>
+      <div>
+          <label for="product-price">Product price :</label>
+          <div>
+              <input type="text" name="name" id="name" placeholder="$ 100" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+          </div>
+      </div>
+      <div>
+          <input type="submit" name="" id="">
+      </div>
+    </form>
+  </body>
+</html>
