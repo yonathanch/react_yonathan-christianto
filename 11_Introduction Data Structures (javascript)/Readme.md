@@ -14,13 +14,16 @@
 -Jenis operasi tercepat karena hanya membutuhkan 1 steps
 
 2.	Searching
+
 -Mencari apakah nilai tertentu didalam array atau tidak
 -Kebalikan dari reading
 -Komputer tidak bisa tahu begitu saja nilai apa yang terkandung pada setiap memori
 
 3.	Insertion
+
 -Efiesiensi tergantung dimana kita memasukan valuenya
 -Memasukkan value pada akhir dari array hanya membutuhkan 1 steps
+
 4.	Deletion 
 -Menghilangkan value pada indeks tertentu
 -Membutuhkan jumlah N steps  untuk array yang mengandung N data
