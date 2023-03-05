@@ -35,7 +35,9 @@
 
 -Membutuhkan jumlah N steps  untuk array yang mengandung N data.
 
+
 Kesimpulan:
+
 -Menganalisa jumlah steps adalah sangat penting untuk mengetahui performa dari sebuah data structure disuatu aplikasi.
 
 -Reading,searching, dan deletion pada array dan set memiliki efisiensi yang sama yaitu secara berurutan 1 steps,N steps, dan N Steps.
