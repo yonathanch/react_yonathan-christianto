@@ -1,0 +1,17 @@
+.form-control::placeholder {
+    color: #bab8b8; /* ganti dengan warna yang diinginkan */
+
+  }
+
+.btn{
+    text-shadow: 2px 2px #152604;
+}
+
+.nav-link:hover{
+    background-color: rgb(56, 56, 56)  !important;
+}
+
+.navbar-brand:hover{
+    background-color: rgb(56, 56, 56)  !important;
+}
+

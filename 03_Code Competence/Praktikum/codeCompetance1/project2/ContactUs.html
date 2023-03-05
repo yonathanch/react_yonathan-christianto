@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LOGO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse">
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active  text-black" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">Pricing</a>
+              </li>
+            </ul>
+        </div>
+        </div>
+        </div>
+      </nav>
+
+    <div class="container content" >
+        <div class="row">
+          <div class="col-6 mt-5">
+            <h1 class="mt-5">Contact Us</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt quis, explicabo quam numquam molestias esse assumenda a
+            </p>
+            <p>ccusamus eius eum totam modi quidem iure facilis reiciendis nobis perferendis, veritatis iste libero</p>
+          </div>
+   
+          <div class="col-6 mt-5">
+            <div class="row mt-5">
+                <div class="col">
+                    <label for="exampleInputName" class="form-label">First Name*</label>
+                    <input type="text" class="form-control" style="height: 75px; width: 100%;"  aria-label="First name">
+                </div>
+                <div class="col">
+                    <label for="exampleInputEmail1" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" style="height: 75px; width: 100%;"  aria-label="Last name">
+                </div>
+            </div>
+
+            <div class="row mt-2 mt-3">
+                <div class="col">
+                    <label for="exampleInputEmail1" class="form-label">Email*</label> 
+                    <input type="text" class="form-control" style="height: 75px;" aria-label="Last name">
+                </div> 
+            </div>
+
+            <div class="row mt-2 mt-3">
+                <div class="col">
+                    <label for="exampleInputText" class="form-label">What can we help you with?</label> 
+                    <textarea class="form-control" id="floatingTextarea2" style="width: 100%"></textarea>
+                </div> 
+            </div>
+
+            <div class="row mt-2 mt-3">
+                <div class="col">
+                    <button type="button" class="btn btn-primary btn-sm"  style="width: 30%;" onclick="alert()" >Submit</button>
+                </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+ 
+    <script>
+        // pop up
+        function alert() {
+        swal({
+            title: "Succes!",
+            text: "Terimah Kasih Sudah Mengisi Data",
+            icon: "success",
+            button: true
+        });
+    }
+    </script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

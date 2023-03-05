@@ -1,0 +1,11 @@
+.custom-file-button input[type=file]::-webkit-file-upload-button{
+    background-color: blue;
+    border-color: blue;
+    color: #ffff;
+}
+
+.nav-item1{
+    background-color: #0D6EFD;
+    border-radius: 6px;
+    width: 65px;
+}
