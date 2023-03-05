@@ -11,31 +11,33 @@
 
 -Melihat nilai apa yang terkeandung pada indeks tertentu didalam array.
 
--Operasi yang efisien
+-Operasi yang efisien.
 
--Jenis operasi tercepat karena hanya membutuhkan 1 steps
+-Jenis operasi tercepat karena hanya membutuhkan 1 steps.
 
 2.	Searching
 
--Mencari apakah nilai tertentu didalam array atau tidak
+-Mencari apakah nilai tertentu didalam array atau tidak.
 
--Kebalikan dari reading
+-Kebalikan dari reading.
 
--Komputer tidak bisa tahu begitu saja nilai apa yang terkandung pada setiap memori
+-Komputer tidak bisa tahu begitu saja nilai apa yang terkandung pada setiap memori.
 
 3.	Insertion
 
--Efiesiensi tergantung dimana kita memasukan valuenya
+-Efiesiensi tergantung dimana kita memasukan valuenya.
 
--Memasukkan value pada akhir dari array hanya membutuhkan 1 steps
+-Memasukkan value pada akhir dari array hanya membutuhkan 1 steps.
 
 4.	Deletion 
-5.	
--Menghilangkan value pada indeks tertentu
+	
+-Menghilangkan value pada indeks tertentu.
 
--Membutuhkan jumlah N steps  untuk array yang mengandung N data
+-Membutuhkan jumlah N steps  untuk array yang mengandung N data.
 
 Kesimpulan:
 -Menganalisa jumlah steps adalah sangat penting untuk mengetahui performa dari sebuah data structure disuatu aplikasi.
+
 -Reading,searching, dan deletion pada array dan set memiliki efisiensi yang sama yaitu secara berurutan 1 steps,N steps, dan N Steps.
+
 -Set pentik jika kita menginginkan data structure yang terbebas dari duplikasi
