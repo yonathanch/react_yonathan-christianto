@@ -1,6 +1,6 @@
                                                               12_Clean Code
 Pengertian
-Clean code adalah istilah untuk kode yang mudah dibaca,dipahami dan diubah oleh programmer.]
+Clean code adalah istilah untuk kode yang mudah dibaca,dipahami dan diubah oleh programmer.
 
 •	Karakteristik Clean code:
 
