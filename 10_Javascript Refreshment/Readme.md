@@ -2,7 +2,7 @@
 Pengertian:
 
 Javascript adalah Bahasa Pemograman yang High level,Scripting,Untyped dan Interpreted.
-  Beberapa istilah dalam javacript:
+    Beberapa istilah dalam javacript:
 1.	Declaration : Adalah proses pembuatan variabel untuk menyimpan data,contohnya:
 2.	Var : Umumnya jarang dipakai
 3.	Let : Digunakan saat kita membutuhkan nilai yang dapat diubah
