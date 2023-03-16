@@ -11,9 +11,8 @@ Berikut keunggulkan SPA dan MPA.
 
 Perbedaan Link dan redirect yaitu.
 
-Link : dapat digunakan pada kondisi apapun,memberikan history baru pada browser.
-
-Redirect : Lebih sering digunakan pada halaman 404,menimpa history pada browser.
+- Link : dapat digunakan pada kondisi apapun,memberikan history baru pada browser.
+- Redirect : Lebih sering digunakan pada halaman 404,menimpa history pada browser.
 
 •	Beberapa hooks routing yang tersedia di React antara lain:
 1.	useHistory: Digunakan untuk mengakses objek history dan menavigasi antara halaman-halaman di aplikasi.
