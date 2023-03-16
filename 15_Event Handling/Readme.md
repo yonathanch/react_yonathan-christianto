@@ -10,4 +10,5 @@ Beberapa contoh list event:
 •	Komponen React memiliki objek state bawaan. Objek status adalah tempat Anda menyimpan nilai properti yang dimiliki komponen tersebut. Ketika objek state berubah, komponen merender ulang. Kesimpulannya State adalah sebuah object untuk menyimpan data pada React dan akan di render atau muat ulang ketika data mengalami perubahan.
 
 •	Penanganan Event pada Class Component 
+
 Jika kita menggunakan class component, penanganan event dapat dilakukan dengan menggunakan method yang sudah disediakan oleh ReactJS, yaitu this.setState(). Sebagai contoh, kita ingin menambahkan event handler untuk mengubah warna background pada komponen App saat tombol ditekan.
