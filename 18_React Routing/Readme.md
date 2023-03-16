@@ -1,14 +1,19 @@
                                                           18_React Routing
 
 •	Router merupakan modul dalam react yang berfungsi untuk melakukan proses navigasi pada SPA.
+
 Berikut keunggulkan SPA dan MPA.
+
 SPA : waktu loading cepat,tidak ada query tambahan ke server,front end yang cepat dan responsif.
+
 MPA : SEO website akan lebih mudah di optimasi,memudahkanmu untuk mengubah halaman tertentu untuk setiap kebutuhan yang berbeda.
 
 •	Parameter URL adalah suatu parameter yang nilainya ditetapkan secara dinamis di URL halaman.
 
 Perbedaan Link dan redirect yaitu.
+
 Link : dapat digunakan pada kondisi apapun,memberikan history baru pada browser.
+
 Redirect : Lebih sering digunakan pada halaman 404,menimpa history pada browser.
 
 •	Beberapa hooks routing yang tersedia di React antara lain:
