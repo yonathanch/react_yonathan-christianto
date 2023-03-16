@@ -4,8 +4,8 @@
 
 Berikut keunggulkan SPA dan MPA.
 
-SPA : waktu loading cepat,tidak ada query tambahan ke server,front end yang cepat dan responsif.
-MPA : SEO website akan lebih mudah di optimasi,memudahkanmu untuk mengubah halaman tertentu untuk setiap kebutuhan yang berbeda.
+1.  SPA : waktu loading cepat,tidak ada query tambahan ke server,front end yang cepat dan responsif.
+2.  MPA : SEO website akan lebih mudah di optimasi,memudahkanmu untuk mengubah halaman tertentu untuk setiap kebutuhan yang berbeda.
 
 •	Parameter URL adalah suatu parameter yang nilainya ditetapkan secara dinamis di URL halaman.
 
