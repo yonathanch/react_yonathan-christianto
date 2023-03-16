@@ -8,9 +8,8 @@
 4.	useRef() : digunakan untuk mengakses dan memodifikasi elemen HTML pada component.
 
 •	Aturan pada Hooks
-1.	Hanya panggil hooks di Tingkat atas
-
-Jangan memanggil hooks dari dalam loops,conditions, atau nested functions.
+1.	Hanya panggil hooks di Tingkat atas (
+Jangan memanggil hooks dari dalam loops,conditions, atau nested functions.)
 
 2.	Hanya panggil Hooks dari fungsi-fungsi react
 
