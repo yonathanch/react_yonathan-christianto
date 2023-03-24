@@ -1,7 +1,6 @@
 import '../App.css'
 import Navbar from "../Components/Navbar/Navbar"
 import Form from '../Components/Form/Form-validation'
-import Table from '../Components/Table/Table'
 import Logo from '../assets/bootstrap-logo.svg.png'
 import Footer from '../Components/Footer/Footer'
 import Button from '../Element/Button'
@@ -23,16 +22,11 @@ const Homepage = () => {
         <br /><br />
         </div>
         </div>
-        
         <Form />
         <RandomNumber />
-       
         <br/><br/>
-        <Table />
         <br /><br />
         <Footer />
-      
-
 
         </div>
     )

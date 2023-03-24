@@ -1,15 +1,31 @@
 import React, { useState } from 'react';
 import './Form.css'
+import Table from '../Table/Table';
 
 const Form = () => {
         const [productName, setProductName] = useState('');
         const [productCategory, setproductCategory] = useState('');
         const [imageofProduct, setimageofProduct] = useState('');
+        const [productFreshness, setproductFreshness] = useState('');
         const [addDescription, setaddDescription] = useState('');
         const [productPrice, setproductPrice] = useState('');
         const [formErrors, setFormErrors] = useState({});
+        const [data, setData] = useState([]);
 
-      
+        
+        const onSubmit = () => {
+            const objData = {
+                productName: productName,
+                productCategory: productCategory,
+                imageofProduct: imageofProduct,
+                productFreshness: productFreshness,
+                addDescription: addDescription,
+                productPrice: productPrice
+            }
+
+            setData([...data, objData])
+        }
+
         const handleProductName = (event) => {
           const inputValue = event.target.value;
           
@@ -32,7 +48,7 @@ const Form = () => {
         }
        
         const handleproductFreshnes = (event) => {
-            setproductFreshnes(event.target.value);
+            setproductFreshness(event.target.value);
         }
 
         const handleaddDescription = (event) => {
@@ -113,15 +129,21 @@ const Form = () => {
             <div className="col-12 mb-3 custom-file-button">
                 <label htmlFor="productImage" className="form-label">Product Freshnes</label>
                 <div className="form-check">
-                    <input className="form-check-input"  type="radio" name="exampleRadios" id="exampleRadios" defaultValue="Brand New" />
+                    <input className="form-check-input"  type="radio" name="exampleRadios" id="exampleRadios" defaultValue="Brand New" 
+                    value={productFreshness}
+                    onChange={handleproductFreshnes}/>
                     <label className="form-check-label" htmlFor="exampleRadios1"> Brand New</label>
                 </div>
                 <div className="form-check">
-                    <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" defaultValue="Second Hand"/>
+                    <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" defaultValue="Second Hand"
+                    value={productFreshness}
+                    onChange={handleproductFreshnes}/>
                     <label className="form-check-label" htmlFor="exampleRadios2">Second Hand</label>
                 </div>
                 <div className="form-check">
-                    <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" defaultValue="Refufbished"/>
+                    <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" defaultValue="Refufbished"
+                    value={productFreshness}
+                    onChange={handleproductFreshnes}/>
                     <label className="form-check-label" htmlFor="exampleRadios3">Refufbished</label>
                 </div>
             </div>
@@ -155,11 +177,13 @@ const Form = () => {
 
             <div className="container text-center">
             <button type="submit" className="btn btn-primary text-center" data-bs-target="#modalContent" style={{ width: 500 }}
-            id="submit" onClick="table()">Submit</button>
+            id="submit" onClick={onSubmit}>Submit</button>
             </div>
-      </form>
-       
+            <br /><br />
 
+            <Table data={data}/>   
+      </form>
+      
         
     )
 }

@@ -1,13 +1,30 @@
 import React, { useState } from 'react';
 import './Form.css'
+import Table from '../Table/Table';
 
 const Form = () => {
         const [productName, setProductName] = useState('');
         const [productCategory, setproductCategory] = useState('');
         const [imageofProduct, setimageofProduct] = useState('');
+        const [productFreshness, setproductFreshness] = useState('');
         const [addDescription, setaddDescription] = useState('');
         const [productPrice, setproductPrice] = useState('');
         const [formErrors, setFormErrors] = useState({});
+        const [data, setData] = useState([]);
+
+        
+        const onSubmit = () => {
+            const objData = {
+                productName: productName,
+                productCategory: productCategory,
+                imageofProduct: imageofProduct,
+                productFreshness: productFreshness,
+                addDescription: addDescription,
+                productPrice: productPrice
+            }
+
+            setData([...data, objData])
+        }
 
       
         const handleProductName = (event) => {
@@ -32,7 +49,7 @@ const Form = () => {
         }
        
         const handleproductFreshnes = (event) => {
-            setproductFreshnes(event.target.value);
+            setproductFreshness(event.target.value);
         }
 
         const handleaddDescription = (event) => {
@@ -155,8 +172,11 @@ const Form = () => {
 
             <div className="container text-center">
             <button type="submit" className="btn btn-primary text-center" data-bs-target="#modalContent" style={{ width: 500 }}
-            id="submit" onClick="table()">Submit</button>
+            id="submit" onClick={onSubmit}>Submit</button>
             </div>
+            <br /><br />
+
+            <Table data={data}/>   
       </form>
        
 
