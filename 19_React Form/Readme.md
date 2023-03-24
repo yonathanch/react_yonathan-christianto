@@ -13,4 +13,4 @@
 -	Controlled Component : Dapat menggabungkan cara menyimpan dan memperbarui state di HTML dan React dengan menggunakan state pada React.
 -	Uncontrolled Component : Alternatif lain dari controlled component,dimana data form akan ditangani oleh DOM-nya
 
-Kesimpulan: Formulir atau form adalah bagian penting dari banyak aplikasi web. Dalam React, kita bisa membuat formulir dengan menggunakan elemen HTML seperti <form>, <input>, <textarea>, dan sebagainya.Dalam membuat formulir di React, terdapat dua pendekatan yang bisa digunakan: controlled component dan uncontrolled component.
+Kesimpulan: Formulir atau form adalah bagian penting dari banyak aplikasi web. Dalam React, kita bisa membuat formulir dengan menggunakan elemen HTML seperti form, input, textarea, dan sebagainya.Dalam membuat formulir di React, terdapat dua pendekatan yang bisa digunakan: controlled component dan uncontrolled component.
