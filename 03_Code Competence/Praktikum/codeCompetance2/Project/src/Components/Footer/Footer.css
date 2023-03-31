@@ -1,0 +1,130 @@
+body {
+    display: flex;
+  flex-direction: column;
+  min-height: 10vh;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.footer {
+    background: linear-gradient(to right, #040a18 80%, #2a822a);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    padding-bottom: 105px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-left {
+    width: 32%;
+}
+
+.footer h5 {
+    color: #f5f5f5;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.footer-addres1 {
+    color: #8f9296;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 5%;
+}
+
+.footer-addres2{
+    color: #8f9296;
+    font-size: 16px;
+}
+
+.footer-center {
+    width: 37%;
+}
+
+.footer-center h3 {
+    display: inline-block;
+    color: #fff;
+    vertical-align: middle;
+    margin: 0px;
+}
+.footer-center p{
+    color: #8f9296;
+}
+
+
+ .footer-right {
+    width: 30%;
+}
+
+.footer-media {
+    margin-top: 15px;
+}
+
+.footer-media a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #2a822a;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-media a:hover {
+    background-color: rgb(69, 58, 63);
+}
+
+.Copyright{
+    color: #ffffffdf;
+    position: relative;
+    top: 117px;
+    text-align: center;
+}
+
+@media (max-width: 880px) {
+
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+
+    .footer .footer-center i {
+        margin-left: 0px;
+    }
+
+}

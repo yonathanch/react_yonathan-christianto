@@ -1,0 +1,14 @@
+.primacode{
+    width: 70%;
+    height: 400px;
+}
+
+p{
+    padding-left: 11px;
+}
+
+.content-aboutus{
+    background: linear-gradient(to right, #040a18 80%, #2a822a);
+    color: rgb(206, 224, 240);
+}
+
