@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import ContactUs from './Components/ContactUs/ContactUs'
-import Contoh from './Components/contoh/Contoh'
 // import './App.css'
 import WelcomePage from './Components/WelcomePage/WelcomePage'
 import AboutUs from './Components/AboutUs/AboutUs'
@@ -15,7 +14,6 @@ function App() {
    <ContactUs />
    <AboutUs/>
    <Footer/>
-   {/* <Contoh/> */}
     </div>
   )
 }
