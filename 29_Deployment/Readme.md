@@ -1,6 +1,7 @@
                                                                       29_Deployment
 
 •	Deployment React JS adalah proses memindahkan aplikasi React JS dari lingkungan pengembangan ke lingkungan produksi atau live, sehingga dapat digunakan oleh pengguna akhir. Hal ini melibatkan memuat kode aplikasi React JS dan file pendukungnya ke server yang dapat diakses melalui internet, sehingga pengguna akhir dapat mengakses aplikasi tersebut melalui browser.
+
 Kita bisa menggunakan Surge untuk mendeploy, Surge adalah platform hosting statis dan layanan deployment yang memungkinkan pengguna untuk dengan mudah dan cepat memuat situs web atau aplikasi React JS ke server yang dapat diakses melalui internet. Dengan Surge, Anda dapat melakukan deployment situs web atau aplikasi React JS Anda dengan cepat dan mudah hanya dengan beberapa langkah sederhana. Anda hanya perlu menginstal Surge CLI (Command Line Interface) pada komputer Anda dan kemudian mengikuti instruksi untuk memuat situs atau aplikasi Anda.
 
 •	Kenapa Perlu Build?
